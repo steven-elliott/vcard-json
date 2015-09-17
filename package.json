@@ -1,9 +1,11 @@
 {
   "name": "vcard-json",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Easily and smartly convert vcard file(s) to a JSON object.",
   "main": "./lib/vcard-json.js",
-  "keywords": ["vcard"],
+  "keywords": [
+    "vcard"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/steven-elliott/vcard-json"
+    "url": "https://github.com/steven-elliott/vcard-json"
   },
   "dependencies": {
     "underscore": "^1.8.2",
