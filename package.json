@@ -1,6 +1,6 @@
 {
   "name": "vcard-json",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Easily and smartly convert vcard file(s) to a JSON object.",
   "main": "./lib/vcard-json.js",
   "keywords": [
