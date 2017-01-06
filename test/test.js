@@ -8,6 +8,13 @@ vcard.parseVcardFile('./some-contact.vcf', function(err, data){
   }
 });
 
+vcard.parseVcardFile('./gmail-vcard3.vcf', function(err, data) {
+  if(err) console.log('oops:'+ err);
+  else {
+    console.log('Async parseVcardFile with gmail v3 contact is good to go:\n'+ JSON.stringify(data)); 
+  }
+})
+
 var vcardString = 'BEGIN:VCARD\n'+
   'VERSION:3.0\n'+
   'PRODID:-//Apple Inc.//Mac OS X 10.10.2//EN\n'+
